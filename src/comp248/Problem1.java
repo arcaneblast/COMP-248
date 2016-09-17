@@ -3,6 +3,10 @@
 // Written by: Elias Al Homsi, id: 40027818
 // For COMP 248 Section P (COMP-248-2162-P) – Fall 2016
 // Question 1
+// Date: 17 September 2016
+// Purpose: Categorizing students into Local, outOfProvince and International.
+// Input: The number of students in each category.
+// Output: The Percent of each category.
 // --------------------------------------------------------
 package comp248;
 
@@ -15,14 +19,14 @@ import java.util.Scanner;
  * This source code is the solution of Question 1 of Assignment 1.
  *
  * Format:
- *
+ * --------
  * 1) All questions of the assignment are named Problem#. 2) # is the number of
  * the question. 3) Each problem has its own main method. 4) All of them are
  * part of the package comp248. 5) All of them start with Start Program and end
  * with End Program.
  *
  * Steps (Algorithm):
- *
+ * ------------------
  * 1) We define all the variables we need. For each category of student, we need
  * three variables representing the number, percentage in double and percentage
  * in an integer. Please note, the problem could be solved with fewer variables
@@ -38,6 +42,24 @@ import java.util.Scanner;
  *
  * 5) Output and end of the program.
  *
+ * Variables: ("The naming convention is already clear, but just in case")
+ * ------------------------------------------------------------------------
+ * *Scanner input: is a Scanner object that we are going to use for input
+ *
+ * *int inProvince, outOfProvince, international: the number of students in
+ * each category
+ *
+ * *int total: the sum of the three variables above. (The total number of
+ * students).
+ *
+ * *double inProvincePercent, outOfProvincePercent, internationalPercent: the
+ * percent of each category represented as a double value. For example 1% would
+ * be 0.01.
+ *
+ * *int inProvinceIntegerPercent, outOfProvinceIntegerPercent,
+ * internationalIntegerPercent: the percentage of each category represennted as
+ * an integer. For example 1% would be 1.
+ *
  *
  * @author Elias Al Homsi
  * @id 40027818
@@ -52,7 +74,7 @@ public class Problem1 {
         int inProvinceIntegerPercent = 0, outOfProvinceIntegerPercent = 0, internationalIntegerPercent = 0;
 
         // Start Messege
-        System.out.println("Start Program");
+        System.out.println("-----------------Start Program Welcome!------------------");
         System.out.println("---------------------------------------------------------");
         System.out.println("\t  Student Stats -- Where are they coming from?");
         System.out.println("---------------------------------------------------------");
@@ -75,10 +97,10 @@ public class Problem1 {
             System.out.println("\nGreat! There are " + total + " in the class.");
             System.out.println("\tIn-province students: " + inProvincePercent + " or ~" + inProvinceIntegerPercent + "%");
             System.out.println("\tOut-of-province students: " + outOfProvincePercent + " or ~" + outOfProvinceIntegerPercent + "%");
-            System.out.println("\tInternational students " + internationalPercent + " or ~" + internationalIntegerPercent + "%");
+            System.out.println("\tInternational students: " + internationalPercent + " or ~" + internationalIntegerPercent + "%");
             System.out.println("**Have a great term!**");
             // End Messege
-            System.out.println("End Program");
+            System.out.println("----------------------End Program------------------------");
 
             // Exit: we could have used System.exit(0)
             return;
@@ -98,9 +120,9 @@ public class Problem1 {
         System.out.println("\nGreat! There are " + total + " in the class.");
         System.out.println("\tIn-province students: " + inProvincePercent + " or ~" + inProvinceIntegerPercent + "%");
         System.out.println("\tOut-of-province students: " + outOfProvincePercent + " or ~" + outOfProvinceIntegerPercent + "%");
-        System.out.println("\tInternational students " + internationalPercent + " or ~" + internationalIntegerPercent + "%");
+        System.out.println("\tInternational students: " + internationalPercent + " or ~" + internationalIntegerPercent + "%");
         System.out.println("**Have a great term!**");
         // End Messege
-        System.out.println("End Program");
+        System.out.println("----------------------End Program------------------------");
     }
 }
