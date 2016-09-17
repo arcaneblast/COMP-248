@@ -14,10 +14,12 @@ public class COMP248
 
     /**
      * @param args the command line arguments
+     * This class would be our testing area for classes written for solving the 
+     * assignment.
      */
     public static void main(String[] args)
     {
-        // TODO code application logic here
+        Problem3.main();
     }
     
 }
