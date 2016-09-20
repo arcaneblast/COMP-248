@@ -1,5 +1,3 @@
-package comp248;
-
 // -------------------------------------------------------
 // Assignment 1. 
 // Written by: Elias Al Homsi, id: 40027818

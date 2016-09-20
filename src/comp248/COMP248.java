@@ -19,7 +19,7 @@ public class COMP248
      */
     public static void main(String[] args)
     {
-        Problem3.main();
+        Problem3.main(args);
     }
     
 }
