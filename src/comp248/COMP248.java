@@ -5,6 +5,7 @@
  */
 package comp248;
 
+import comp248.assignment2.Problem3;
 /**
  *
  * @author it-el

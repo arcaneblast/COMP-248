@@ -1,4 +1,4 @@
-package comp248;
+package comp248.assignment1;
 
 // -------------------------------------------------------
 // Assignment 1. 
