@@ -21,10 +21,13 @@ import java.util.Scanner;
  *
  * This source code is the solution of Question 1 of Assignment 3.
  *
- * Format: -------- 1) All questions of the assignment are named Problem#. 2) #
+ * Format: 
+ * -------- 
+ * 1) All questions of the assignment are named Problem#. 2) #
  * is the number of the question. 3) Each problem has its own main method.
  *
- * Steps (Algorithm): ------------------ 
+ * Steps (Algorithm): 
+ * ------------------ 
  * 1) First we define the variables we need
  *
  * 2) we get the input from the user including the nouns and the adjectives
