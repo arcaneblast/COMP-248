@@ -118,7 +118,7 @@ public class Problem2 {
         System.out.println("---------------------------------------------------------");
         System.out.println("----------COMP248 Concert IS BACK IN TOWN----------------\n"
                 + "             Hurry book your ticket Now!!");
-        System.out.println("----------------------------------------------------------");
+        System.out.println("---------------------------------------------------------");
         System.out.println();
 
         // print Hall status 

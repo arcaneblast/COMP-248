@@ -5,7 +5,7 @@
  */
 package comp248;
 
-import comp248.assignment3.Problem2;
+import comp248.assignment3.Problem3;
 /**
  *
  * @author it-el
@@ -20,7 +20,7 @@ public class COMP248
      */
     public static void main(String[] args)
     {
-        Problem2.main(args);
+        Problem3.main(args);
     }
     
 }
